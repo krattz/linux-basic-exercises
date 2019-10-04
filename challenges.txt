@@ -1,0 +1,69 @@
+Challenge 1.
+ls
+pwd
+mkdir workspace
+cd workspace
+ls
+touch README.md
+cp README.md CHANGELOG.md
+
+Challenge 2.
+touch exercise.md
+mv exercise.md tmp/
+rm -r ~/tmp/exercise.md
+
+
+Challenge 3.
+touch umuzi.md recruits.md cohort.md
+nano umuzi.md
+blah blah blah
+ctrl+s
+ctrl+x
+
+
+nano recruits.md
+more blah blah blah
+ctrl+s
+ctrl+x
+
+nano cohort.md
+last blah blah blah
+ctrl+s
+ctrl+x
+
+cat cohort.md recruits.md umuzi.md > summary.md
+echo The End >> summary.md
+
+Challenge 4.
+locate umuzi.md
+locate umuzi.md >> search_result.md
+
+Challenge 5.
+cd Documents/
+touch pad.md
+cd
+cd Desktop/
+cp ~/Documents/pad.md . 
+mv pad.md pad_copy.md
+locate updatedb
+cd
+locate pad_copy.md
+
+
+Challenge 6.
+
+find ~/ -name *.pdf
+
+find ~/ -name *.pdf >> results_search.txt
+
+find ~/ -atime 1
+
+
+Challenge 7.
+
+nano my_bio.md
+ctrl+s
+ctrl+x
+
+mkdir my_files
+mv my_bio.md my_files/
